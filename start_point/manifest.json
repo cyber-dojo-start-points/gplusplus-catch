@@ -1,0 +1,15 @@
+{
+  "image_name": "cyberdojofoundation/gpp_catch",
+  "display_name": "C++ (g++), Catch",
+  "visible_filenames":
+  [
+    "hiker.tests.cpp",
+    "hiker.cpp",
+    "hiker.hpp",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension": [ ".cpp", ".hpp", ".c", ".h" ],
+  "max_seconds": 10,
+  "tab_size": 4
+}
