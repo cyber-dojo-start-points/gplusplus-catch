@@ -3,4 +3,10 @@
 
 int answer();
 
+class hiker
+{
+public:
+    int answer() const;
+};
+
 #endif
