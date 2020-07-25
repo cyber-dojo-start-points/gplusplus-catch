@@ -1,5 +1,5 @@
 {
-  "image_name": "cyberdojofoundation/gpp_catch:2f3fafb",
+  "image_name": "cyberdojofoundation/gpp_catch:0c5ba0d",
   "display_name": "C++ (g++), Catch",
   "visible_filenames": [
     "hiker.tests.cpp",
