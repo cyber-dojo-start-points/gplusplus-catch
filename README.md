@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-start-points/gplusplus-catch.svg?style=svg)](https://circleci.com/gh/cyber-dojo-start-points/gplusplus-catch)
+[![Github Action (master)] (https://github.com/cyber-dojo-languages/gplusplus-catch/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/gplusplus-catch/actions)
 
-### display_name="C++ (g++), Catch"
+### display_name="C++ (g++ 15.1.0), catch"
 ### image_name="[cyberdojofoundation/gpp_catch](https://hub.docker.com/repository/docker/cyberdojofoundation/gpp_catch)"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
