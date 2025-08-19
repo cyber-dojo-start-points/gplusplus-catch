@@ -1,6 +1,6 @@
 {
   "image_name": "ghcr.io/cyber-dojo-languages/gpp_catch:e3a53d9",
-  "display_name": "C++ (g++ 15.1.0), Catch",
+  "display_name": "C++ (g++ 15.1.0), Catch 2.13.10",
   "visible_filenames": [
     "hiker.tests.cpp",
     "hiker.cpp",
