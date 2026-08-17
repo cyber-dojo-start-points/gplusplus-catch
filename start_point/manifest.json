@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/gpp_catch:e20ac01",
+  "image_name": "ghcr.io/cyber-dojo-languages/gpp_catch:9700b2d",
   "display_name": "C++ (g++ 15.2.0), Catch 2.13.10",
   "language": [
     "C++ (g++)",
@@ -16,6 +16,7 @@
     "makefile",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".cpp",
     ".hpp",
