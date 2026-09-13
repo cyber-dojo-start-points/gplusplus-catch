@@ -1,0 +1,7 @@
+{
+  "match_counts": {
+    ": FAILED:$": 3,
+    "^test cases: 3 \\| 3 failed$": 1,
+    "^assertions: 3 \\| 3 failed$": 1
+  }
+}

@@ -1,0 +1,12 @@
+#include "hiker.hpp"
+#include <catch2/catch.hpp>
+
+TEST_CASE("life the universe and everything")
+{
+    REQUIRE( answer() == 42 );
+}
+
+TEST_CASE("the checksum of the answer")
+{
+    REQUIRE( checksum() == 6 );
+}

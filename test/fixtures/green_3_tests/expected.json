@@ -1,0 +1,6 @@
+{
+  "max_output_lines": 12,
+  "match_counts": {
+    "^All tests passed \\(3 assertions in 3 test cases\\)$": 1
+  }
+}

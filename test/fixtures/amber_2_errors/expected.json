@@ -1,0 +1,6 @@
+{
+  "match_counts": {
+    "undefined reference to .question\\(\\).": 1,
+    "undefined reference to .checksum\\(\\).": 1
+  }
+}
