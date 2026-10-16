@@ -2,7 +2,7 @@
 // https://github.com/catchorg/Catch2
 
 #include "hiker.hpp"
-#include <catch2/catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("global function example")
 {

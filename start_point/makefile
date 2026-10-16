@@ -12,17 +12,22 @@ CXXFLAGS += $(COVERAGE_FLAGS)
 HPP_FILES = $(patsubst ./%,%,$(shell find . -name '*.hpp'))
 COMPILED_HPP_FILES = $(patsubst %.hpp,%.compiled_hpp,$(HPP_FILES))
 CPP_FILES = $(patsubst ./%,%,$(shell find . -name '*.cpp'))
-OBJ_FILES = $(patsubst %.cpp,%.o,$(CPP_FILES)) /usr/lib/catch_main.o
+OBJ_FILES = $(patsubst %.cpp,%.o,$(CPP_FILES))
+# Catch2Main holds main(), so a kata's files hold only its tests.
+LDLIBS = -lCatch2Main -lCatch2
 
 %.o: %.cpp
 	@$(CXX) -c -o $@ $< $(CXXFLAGS)
 
+# Catch2 runs tests in a random order unless told otherwise. Declaration
+# order is what lets a test that ends the process leave the earlier ones
+# reported.
 .PHONY: test.output
 test.output: test makefile
-	@./$<
+	@./$< --order decl
 
 test: $(OBJ_FILES) $(COMPILED_HPP_FILES)
-	@$(CXX) $(CXXFLAGS) -O $(OBJ_FILES) -o $@
+	@$(CXX) $(CXXFLAGS) -O $(OBJ_FILES) -o $@ $(LDLIBS)
 
 # This rule ensures header files build in their own right.
 # The quality of header files is important because header files
